@@ -18,7 +18,7 @@ public class Deck {
         }
     }
     public Card getCard() {
-        int arrayID = rand.nextInt(cardNumbers.size()-1);
+        int arrayID = rand.nextInt(cardNumbers.size());
         int cardID = cardNumbers.get(arrayID);
         Card C = new Card(cardID);
         cardNumbers.remove(arrayID);

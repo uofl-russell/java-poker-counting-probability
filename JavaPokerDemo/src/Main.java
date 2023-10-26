@@ -20,7 +20,7 @@ public class Main {
         Deck deck = new Deck();
         HandStats stats = new HandStats();
         int numHands = 0;
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 14000000; i++) {
             for (int j = 0; j < 5; j++) {
                 Card C = deck.getCard();
                 hand.addCard(C);
